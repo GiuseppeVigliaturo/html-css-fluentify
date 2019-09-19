@@ -187,7 +187,40 @@ a.input_2{
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*blocco pubblicità e percorso*/
+.percorso{
+  height: 200px;
+  widht:100%;
+  background: red;
 
+}
+
+.percorso:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.formazione{
+  float: left;
+  width: 30%;
+  height: 100px;
+
+}
+
+.affiancamento{
+  float: left;
+  width: 30%;
+  background: white;
+  height: 100px;
+
+}
+
+.monitoraggio{
+  float: left;
+  width: 30%;
+  height: 100px;
+}
 /* blocco footer  */
 
 .footsup{
