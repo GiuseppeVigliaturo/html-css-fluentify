@@ -37,7 +37,7 @@
   margin: 0 7%;
   float: left;
   height: 36px;
-  width: 38%;
+  width: 32%;
   background-color: rgb(13, 44, 76);
 }
 
@@ -60,7 +60,7 @@ nav{
 .navbar > ul{
   widht:100%;
 }
-.navbar > li {
+.bloccotesta2 > nav > .navbar > li {
 float:left;
 font-size: 12px;
 text-align: center;
@@ -81,7 +81,7 @@ width: 25%;
 .testa .bloccotesta3{
   float: left;
   height: 30px;
-  width: 30%;
+  width: 36%;
   background-color: rgb(13, 44, 76);
 }
 
@@ -99,16 +99,41 @@ width: 25%;
   width: 30%;
 }
 
+.testa3 > a{
+  display: inline-block;
+}
 
-.testa .bloccotesta3 .testa3 > button{
-  background-color: lightgreen;
-  margin-bottom: 30px;
+a.input_1{
+  padding: 16px;
+  margin: 8px 0;
+  background: rgb(13, 44, 76);
   height: 40px;
-  width: 100px;
-  margin: 10px 5px;
+  color: grey;
+
+
+}
+
+a.input_2{
+  background-color: rgb(13, 44, 76);
+
+  padding: 16px;
+  margin: 8px 0;
   border: 2px solid white;
   border-radius: 3px;
   color: white;
+
+}
+
+
+ a.input_3{
+  background-color: lightgreen;
+  padding: 16px;
+  margin: 8px 1px;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+
+
 }
 
 
@@ -126,7 +151,6 @@ width: 25%;
 }
 
 .collo .collodestra{
-  position: relative;
   float: left;
   width: 50%;
   height: 100%;
@@ -134,12 +158,8 @@ width: 25%;
 }
 
 .collo .collodestra .motto{
-
-  position: absolute;
-  top:30%;
-  left:50%;
-  transform: translate(-50%, -50%);
   font-size: 20px;
+  margin: 72px 98px
 }
 
 .collo .collodestra .motto > p{
@@ -156,6 +176,7 @@ width: 25%;
   border: 2px solid white;
   border-radius: 3px;
   color: white;
+
 }
 
 .collo .collosinistra{
@@ -165,4 +186,83 @@ width: 25%;
   background: url("../img/oldman.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* blocco footer  */
+
+.footsup{
+  background: rgb(13, 44, 76);/* debug */
+  width:100%;
+}
+
+.dubbi{
+    margin: 1px 17px;
+    padding: 17px;
+
+}
+.dubbi h2{
+  color: white;
+
+}
+
+.dubbi h3{
+  color: white;
+
+}
+.footinf{
+  background:rgb(13, 44, 76);/* debug */
+  height: 300px;
+  width:100%;
+}
+
+.footinf:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footinf .footersx{
+  float: left;
+  width: 50%;
+  height: 100%;
+
+}
+
+.footersx > h2{
+  color: white;
+  padding: 20px 50px;
+}
+
+.footersx > nav > .navbar > li{
+  padding: 8px 50px;
+}
+
+.footinf .footerdx{
+  background: rgb(13, 44, 76);
+  float: left;
+  width: 50%;
+  height: 100%;
+
+}
+
+.footinf .footerdx .copyright{
+  margin-top: 80px;
+}
+
+.footinf .footerdx .copyright > h3{
+  padding: 14px 33px;
+  display: block;
+  margin-left: 130px;
+  color: white;
+
+}
+
+
+.footinf .footerdx .indirizzi > h4{
+  padding: 3px 33px;
+  display: block;
+  margin-left: 130px;
+  color: grey;
+
 }
