@@ -132,11 +132,7 @@ a.input_2{
   border: 2px solid white;
   border-radius: 3px;
   color: white;
-
-
 }
-
-
 
 .collo{
   width: 100%;
@@ -189,9 +185,9 @@ a.input_2{
 }
 /*blocco pubblicità e percorso*/
 .percorso{
-  height: 200px;
   widht:100%;
-  background: red;
+  background: white;
+  margin: 0 5%;
 
 }
 
@@ -201,26 +197,95 @@ a.input_2{
   clear: both;
 }
 
-.formazione{
+.picturesez_1{
+height: 160px;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.path > h3{
+  color: lightgreen;
+}
+
+.path > p{
+
+}
+.path.formazione{
   float: left;
   width: 30%;
-  height: 100px;
+}
+
+.path.affiancamento{
+  float: left;
+  width: 30%;
+  background: white;/*debug*/
 
 }
 
-.affiancamento{
+.path.monitoraggio{
   float: left;
   width: 30%;
+
+}
+
+/*seconda sezione*/
+.montagna{
+  widht:100%;
   background: white;
-  height: 100px;
+  margin: 0 5%;
 
 }
 
-.monitoraggio{
+.montagna:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.montagnasx{
   float: left;
-  width: 30%;
-  height: 100px;
+  width: 50%;
+  background: red;/*debug*/
+  height: 300px;
+  background: url("../img/mountain.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
+.montagnadx{
+  float: right;
+  width: 50%;
+  height: 200px;/*debug*/
+
+}
+
+/*blocco scelta del piano*/
+.visualpiano{
+  widht:100%;
+  background: white;
+  margin: 0 5%;
+
+}
+
+.visualpiano:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.scelta{
+  float: left;
+  width: 40%
+
+}
+
+.selectionbar{
+  float: right;
+  width: 60%;
+
+}
+
 /* blocco footer  */
 
 .footsup{
