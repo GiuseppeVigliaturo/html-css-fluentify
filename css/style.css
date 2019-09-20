@@ -568,6 +568,65 @@ a.input_select{
 
 }
 
+/*ultimo blocco*/
+
+.posizione{
+  widht:100%;
+  background: white;
+  margin: 5% 10%;
+
+}
+
+.posizione::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.picturesez_last{
+height: 60px;
+width: 20%;
+margin-bottom: 20px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.sono > h3{
+  color: black;
+  display: block;
+  margin-top: 15px;
+  margin-bottom:15px ;
+
+}
+
+.sono > h4{
+  color: grey;
+  display: block;
+  margin-top: 15px;
+  margin-bottom:15px ;
+  border-bottom: 3px solid green;
+
+}
+
+
+.sono.studente{
+  float: left;
+  width: 30%;
+}
+
+.sono.professionista{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: white;/*debug*/
+
+}
+
+.sono.impresa{
+  float: left;
+  width: 30%;
+
+}
 
 /* blocco footer  */
 
