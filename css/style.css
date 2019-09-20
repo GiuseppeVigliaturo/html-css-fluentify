@@ -171,6 +171,18 @@ a.input_2{
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* blocco frase pubblicitaria*/
+
+.fraseadv{
+  widht:100%;
+  height: 100px;
+  background-color: #f9f9f9;
+}
+
+.frase{
+  margin-left: 250px;
+  padding: 16px 85px;
+}
 /*blocco pubblicità e percorso*/
 .percorso{
   widht:100%;
@@ -333,17 +345,127 @@ a.input_select{
 .lezionidx{
   float: right;
   width: 50%;
-  height: 400px;
+  height: 500px;
 }
 
-.lezionidx .sessionpc{
-  height:500px;
+.lezionidx .sessionipc{
+  height:400px;
   width: 600px;
   margin-bottom: 50px;
   margin-left: 60px;
 
+
 }
 
+/*blocco stretta di mano*/
+.strettamano{
+  widht:100%;
+  background: white;
+  border-bottom: 1px solid grey;
+
+}
+
+.strettamano:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.strettamanosx{
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+
+
+.strettamanodx{
+  float: right;
+  width: 50%;
+  height: 500px;
+}
+
+/*blocco pc table */
+.pctablet{
+  margin: 0 25%;
+
+}
+
+.device{
+  width: 80%;
+  height: 20%;
+  background: white;
+
+}
+
+.deviceimg{
+  height: 250px;
+  width: 330px;
+  margin-left: 10%;
+}
+
+.txtdevice{
+  width: 80%;
+  height: 50%;
+  background: white;
+
+}
+/* blocco azienda  */
+
+.azienda{
+  background: rgb(13, 44, 76);
+  widht:100%;
+  margin: 0 5%;
+}
+
+
+
+.azienda:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.aziendasx{
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+.aziendadx{
+  float: right;
+  width: 50%;
+  height: 200px;/*debug*/
+  background: url("../img/pc-couple.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.txtazsx > h4{
+  color: #999;
+
+}
+
+.txtazsx > a{
+  color: #98c8f8;
+}
+/*
+/*
+.testomontagna{
+  margin: 10px 0px;
+  padding: 68px 29px;
+}
+.testomontagna > h3{
+color: #4a4a4a;
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+
+}
+
+
+*/
 /* blocco footer  */
 
 .footsup{
