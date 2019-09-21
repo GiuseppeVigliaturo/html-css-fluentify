@@ -13,8 +13,8 @@
 
 }
 
-.testa::after{
-  content: "";
+.testa:after{
+  content:"";
   display: table;
   clear: both;
 }
@@ -54,15 +54,18 @@ nav{
   color:white;
   list-style:none;
   width: 100%;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
-.navbar > ul{
-  widht:100%;
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
 .bloccotesta2 > nav > .navbar > li {
 float:left;
-font-size: 12px;
+font-size: 15px;
 text-align: center;
 color: white;
 width: 25%;
@@ -74,9 +77,9 @@ width: 25%;
   color: #ffffff;
   }
 
-  .navbar > li > a:hover{
-      color: orange;
-    }
+.navbar > li > a:hover{
+  color: orange;
+}
 
 .testa .bloccotesta3{
   float: left;
@@ -389,6 +392,50 @@ a.input_select{
   margin-left: 60px;
 }
 
+/* blocco barra sotto quello blu delle lezioni*/
+
+.sez_vispiano{
+  width: 100%;
+}
+
+.sez_vispiano:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.sceltap{
+  float: left;
+  width: 30%;
+}
+
+.sez_vispiano .selectionbar{
+  width: 60%;
+  float: left;
+}
+
+.selectionbar{
+  content: "";
+  display: table;
+  clear: both;
+}
+.selectionbar > .parolasono{
+  float: left;
+  width: 30%;
+}
+
+.selectionbar > .input_select{
+  float: left;
+  width: 30%;
+}
+
+
+.selectionbar .opzioni{
+  float: left;
+  width: 30%;
+}
+
+
+
 /*blocco stretta di mano*/
 
 .strettamano{
@@ -396,8 +443,6 @@ a.input_select{
   widht:100%;
   margin: 0 5%;
 }
-
-
 
 .strettamano:after{
   content: "";
